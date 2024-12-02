@@ -100,7 +100,7 @@ class Salary {
 		this.amount = amount
 		this.currency = currency
 		this.date = date || new Date()
-		this._status = status // Use a private field for storing status
+		this._status = status
 	}
 
 	get salaryInfo() {
